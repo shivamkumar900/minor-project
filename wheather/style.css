@@ -6,24 +6,28 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    background-image: url(wheatherimg2.jpeg);
+    background-size: cover;
 }
 
 .main-container {
-    background-color: #ffffff;
+    background-color:aquamarine;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
     text-align: center;
+
 }
 
 input[type="text"] {
     width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     font-size: 16px;
+
 }
 
 button {
